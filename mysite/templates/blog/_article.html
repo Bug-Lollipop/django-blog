@@ -1,0 +1,12 @@
+{% load markdown_deux_tags %}
+ {% load pagination_tags %}
+<div class="blog-post">
+        <h3 class="blog-post-title">
+            <a href="/article/{{ article.id }}/">{{ article.caption }}</a>
+        </h3>
+        <p class="blog-post-meta">{{ article.publish_time }} 
+        <td>({{article.subcaption}}) </td>   
+      
+        <p>{{ article.content |markdown}}</p>
+  
+</div><!-- /.blog-post -->

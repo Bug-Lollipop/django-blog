@@ -1,0 +1,8 @@
+eclipse.preferences.version=1
+encoding//blog/admin.py=utf-8
+encoding//blog/models.py=utf-8
+encoding//blog/search_indexes.py=utf-8
+encoding//blog/templatetags/mark.py=utf-8
+encoding//blog/views.py=utf-8
+encoding//mysite/settings.py=utf-8
+encoding//mysite/urls.py=utf-8
